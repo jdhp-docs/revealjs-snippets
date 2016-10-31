@@ -3,7 +3,7 @@
 ## Skeleton
 
 * [ ] Put CSS in a dedicated file
-* [ ] Split content/main.md
+* [x] Split content/main.md
 * [ ] Make the French branch
 * [ ] Write the PDF target in the Makefile (use https://github.com/astefanutti/decktape ?)
 * [ ] Check if it works well offline
