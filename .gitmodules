@@ -1,3 +1,6 @@
 [submodule "reveal.js"]
 	path = reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "figs/logos"]
+	path = figs/logos
+	url = https://github.com/jdhp-misc/logos.git
