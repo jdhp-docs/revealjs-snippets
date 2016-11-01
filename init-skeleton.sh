@@ -8,17 +8,17 @@ TODO_AUTHOR_WEB_SITE="www.jdhp.org"
 
 TODO_COPYRIGHT_NOTICE="Copyright (c) 2016 ${TODO_AUTHOR_NAME} (${TODO_AUTHOR_WEB_SITE})"
 
-TODO_DOCUMENT_DATE="September 1, 2016"          # TODO
-TODO_INSTITUTE="CEA Saclay - Irfu/SAp"          # TODO
-TODO_DOCUMENT_SUBJECT="TODO"                    # TODO
-TODO_DOCUMENT_KEYWORDS="TODO,TODO"              # TODO
+TODO_DOCUMENT_DATE="November 1, 2016"
+TODO_INSTITUTE=""
+TODO_DOCUMENT_SUBJECT="reveal.js snippets"
+TODO_DOCUMENT_KEYWORDS="reveal.js,snippets"
 
-TODO_DOCUMENT_TITLE="TODO"                      # TODO
-TODO_DOCUMENT_SUBTITLE="TODO"                   # TODO
-TODO_DOCUMENT_FILE_BASE_NAME="TODO"             # TODO
+TODO_DOCUMENT_TITLE="Reveal.js snippets"
+TODO_DOCUMENT_SUBTITLE=""
+TODO_DOCUMENT_FILE_BASE_NAME="revealjs_snippets"
 
-TODO_DOCUMENT_GITHUB_ACCOUNT="jdhp-docs"        # TODO
-TODO_DOCUMENT_GITHUB_REPOSITORY_NAME="TODO"     # TODO
+TODO_DOCUMENT_GITHUB_ACCOUNT="jdhp-docs"
+TODO_DOCUMENT_GITHUB_REPOSITORY_NAME="revealjs-snippets"
 
 TODO_DOCUMENT_GITHUB_URL="https://github.com/${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}"
 TODO_DOCUMENT_ISSUE_TRACKER_URL="https://github.com/${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}/issues"
@@ -34,7 +34,7 @@ TODO_HTML_TMP_DIR="html_tmp"
 
 git remote rename origin skeleton
 git remote add origin git@github.com:${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}.git
-git push -u origin english-version              # TODO
+git push -u origin english-version
 
 
 # MAKE SUBSTITUTIONS ##########################################################
