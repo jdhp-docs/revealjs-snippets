@@ -1,17 +1,47 @@
-## Slide 1
+## Text
 
-content...
+Blablabla...
+
+* Blablabla
+* Blablabla
 
 ~~
 
-notes...
+Slide notes...
 
 ---
 
-## Slide 2
+## Images
 
-content...
+![Logo](figs/logos/python/python.svg)
+
+<img src="figs/logos/python/python.svg" width="300">
 
 ~~
 
-notes...
+Slide notes...
+
+---
+
+## Maths
+
+`\(\int_a^b f(x)dx\)`
+
+$$\int_a^b f(x)dx$$
+
+~~
+
+Slide notes...
+
+---
+
+## Code
+
+```python
+for text in ("Hello", "world"):
+    print(text)
+```
+
+~~
+
+Slide notes...
