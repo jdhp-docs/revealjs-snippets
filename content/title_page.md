@@ -1,7 +1,7 @@
-## TODO_DOCUMENT_TITLE
+## Reveal.js snippets
 
 Version 1.0
 
 <br>
 
-TODO_AUTHOR_NAME ([TODO_AUTHOR_WEB_SITE](http://TODO_AUTHOR_WEB_SITE))
+Jérémie DECOCK ([www.jdhp.org](http://www.jdhp.org))
