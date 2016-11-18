@@ -21,9 +21,15 @@ Alt + click anywhere to zoom back out.
 
 ## Speaker View
 
-There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.
+There's a speaker view. It includes a timer, preview of the upcoming slide as
+well as your speaker notes.
 
 Press the `S` key to try it out.
+
+With some browers, it may not work at the first
+attempt... If it's your case, be sure your browser
+accept the popup and press several times on the
+'s' key...
 
 ~~
 
