@@ -40,6 +40,7 @@
 
 ## Document
 
+- [ ] "Fragments"
 - [ ] HTML Canvas
 - [ ] Audio embedded
 - [ ] Video embedded
