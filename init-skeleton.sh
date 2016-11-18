@@ -10,7 +10,7 @@ TODO_COPYRIGHT_NOTICE="Copyright (c) 2016 ${TODO_AUTHOR_NAME} (${TODO_AUTHOR_WEB
 
 TODO_DOCUMENT_DATE="November 1, 2016"
 TODO_INSTITUTE=""
-TODO_DOCUMENT_SUBJECT="reveal.js snippets"
+TODO_DOCUMENT_SUBJECT="Some snippets for reveal.js"
 TODO_DOCUMENT_KEYWORDS="reveal.js,snippets"
 
 TODO_DOCUMENT_TITLE="Reveal.js snippets"
@@ -36,6 +36,9 @@ git remote rename origin skeleton
 git remote add origin git@github.com:${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}.git
 git push -u origin english-version
 
+git submodule init
+git submodule update
+
 
 # MAKE SUBSTITUTIONS ##########################################################
 
@@ -59,7 +62,7 @@ sed -i "" \
     -e "s TODO_DOCUMENT_GITHUB_URL ${TODO_DOCUMENT_GITHUB_URL} g" \
     -e "s TODO_DOCUMENT_ISSUE_TRACKER_URL ${TODO_DOCUMENT_ISSUE_TRACKER_URL} g" \
     -e "s/TODO_HTML_TMP_DIR/${TODO_HTML_TMP_DIR}/g" \
-    AUTHORS meta.make README.rst content/title_page.md .gitignore
+    AUTHORS meta.make README.rst .gitignore main.html content/title_page.md
 
 
 # FIX TITLES UNDERLINE LENGTH IN RESTRUCTUREDTEXT FILES #######################
@@ -67,6 +70,6 @@ sed -i "" \
 DOCUMENT_TITLE_UNDERLINE=$(echo "${TODO_DOCUMENT_TITLE}" | tr '[:print:]' '=')
 
 sed -i "" \
-    -e "s/====/${DOCUMENT_TITLE_UNDERLINE}/" \
+    -e "s/^====$/${DOCUMENT_TITLE_UNDERLINE}/" \
     README.rst
 
