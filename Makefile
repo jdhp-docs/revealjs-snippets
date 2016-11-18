@@ -12,6 +12,9 @@ SRCSLIDES=main.html\
 
 # OPEN IN WEB BROWSER #########################################################
 
+# TODO: follow the full setup procedure (with NodeJS) described there
+#       https://github.com/hakimel/reveal.js/#full-setup
+
 # Inspired by https://git.kernel.org/cgit/git/git.git/tree/config.mak.uname
 # See also http://stackoverflow.com/questions/3466166/
 
@@ -48,6 +51,9 @@ endif
 # MAKE PDF ####################################################################
 
 pdf: $(FILE_BASE_NAME).pdf
+
+# TODO: follow the full setup procedure (with NodeJS) described there
+#       https://github.com/hakimel/reveal.js/#full-setup
 
 $(FILE_BASE_NAME).pdf: $(SRCSLIDES)
 	@echo "Not fully available yet"           # TODO
