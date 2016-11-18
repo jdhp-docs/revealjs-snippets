@@ -14,3 +14,7 @@ Official web sites
 
 * https://github.com/hakimel/reveal.js
 * http://lab.hakim.se/reveal-js/
+
+Some slides are taken from the `Reveal.js official demo`_ (by Hakim El Hattab).
+
+.. _Reveal.js official demo: http://lab.hakim.se/reveal-js/
