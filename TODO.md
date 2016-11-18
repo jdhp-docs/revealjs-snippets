@@ -40,4 +40,16 @@
 
 ## Document
 
-- [ ] 
+- [ ] HTML Canvas
+- [ ] Audio embedded
+- [ ] Video embedded
+- [ ] Video/Gif background
+- [ ] Image background
+- [ ] MathJax/LaTeX: algorithmic and theorem environments
+- [ ] Columns (like Remark.js)
+- [ ] D3.js
+- [ ] Processing.js
+- [ ] Get data from Node.js (or other client side frameworks)
+- [ ] Get data from JSON files
+- [ ] Other misc HTML5/JS embedded
+
