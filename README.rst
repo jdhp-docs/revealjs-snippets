@@ -4,7 +4,7 @@ Reveal.js snippets
 
 Copyright (c) 2016 Jérémie DECOCK (www.jdhp.org)
 
-* Read online: http://www.jdhp.org/docs/revealjs_snippets/revealjs_snippets.html
+* Read online: http://www.jdhp.org/docs/revealjs_snippets/main.html
 * PDF version: http://www.jdhp.org/dl/pdf/revealjs_snippets.pdf
 * Abstract on JDHP: http://www.jdhp.org/documentation_en.html#revealjs_snippets
 * Source code: https://github.com/jdhp-docs/revealjs-snippets

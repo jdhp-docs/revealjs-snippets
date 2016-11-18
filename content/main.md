@@ -17,7 +17,8 @@ Some slides are taken from the
 
 ## About this demo
 
-[Source code](https://github.com/jdhp-docs/revealjs-snippets)
+* [Source code](https://github.com/jdhp-docs/revealjs-snippets)
+* [Online version](http://www.jdhp.org/docs/revealjs_snippets/main.html)
 
 ---
 
