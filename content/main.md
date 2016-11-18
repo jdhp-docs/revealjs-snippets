@@ -2,6 +2,25 @@
 This is a comment block.
 -->
 
+## About Reveal.js
+
+Official ressources:
+* https://github.com/hakimel/reveal.js
+* http://lab.hakim.se/reveal-js/
+* [Some examples](https://github.com/hakimel/reveal.js/tree/master/test)
+
+Some slides are taken from the
+[Reveal.js official demo](http://lab.hakim.se/reveal-js/)
+(by Hakim El Hattab)
+
+---
+
+## About this demo
+
+[Source code](https://github.com/jdhp-docs/revealjs-snippets)
+
+---
+
 ## Fullscreen
 
 Press `f` to switch to the full screen mode.
