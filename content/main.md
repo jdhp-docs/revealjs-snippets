@@ -253,7 +253,79 @@ $$`
 
 ---
 
-## Code
+## `$\LaTeX$` fonts
+
+### mathbb
+
+`$$
+\mathbb{CHNQRZ}
+$$`
+
+### mathbf
+
+`$$
+\mathbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathbf{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathtt
+
+`$$
+\mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathtt{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## `$\LaTeX$` fonts
+
+### mathrm
+
+`$$
+\mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathrm{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathsf
+
+`$$
+\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathsf{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## `$\LaTeX$` fonts
+
+### mathcal
+
+`$$
+\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathcal{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathfrak
+
+`$$
+\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathfrak{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## Source code
 
 Python:
 ```python
