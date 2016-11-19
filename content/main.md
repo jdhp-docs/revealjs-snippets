@@ -144,11 +144,17 @@ As Descartes said:
 
 ---
 
-## Images
+## SVG images
 
 ![Logo](figs/logos/python/python.svg)
 
 <img src="figs/logos/python/python.svg" width="300">
+
+---
+
+## PNG images
+
+![Logo](figs/plot2d.py.png)
 
 ---
 
