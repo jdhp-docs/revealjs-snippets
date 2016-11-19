@@ -166,7 +166,8 @@ $$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$
 
 ## Maths
 
-Equation array:
+### Equation array
+
 $$
 \\begin{eqnarray}
     y & = & \cos(x) \\\\
@@ -174,7 +175,15 @@ $$
 \\end{eqnarray}
 $$
 
-Matrices:
+See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
+and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+
+---
+
+## Maths
+
+### Arrays
+
 $$
 \\begin{array}{cc}
   a & b \\\\
@@ -182,7 +191,37 @@ $$
 \\end{array}
 $$
 
-Systems of equation array:
+See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
+and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+
+---
+
+## Maths
+
+### Matrices
+
+$$
+A=
+\\begin{pmatrix}
+a\_\{1,1\} & a\_\{1,2\} & \cdots & a\_\{1,n\} \\\\
+a\_\{2,1\} & a\_\{2,2\} & \cdots & a\_\{2,n\} \\\\
+\vdots     & \vdots     & \ddots & \vdots     \\\\
+a\_\{m,1\} & a\_\{m,2\} & \cdots & a\_\{m,n\}
+\\end{pmatrix}
+$$
+
+See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
+and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+
+See [this page](http://meta.cs.stackexchange.com/questions/74/curly-brackets-not-showing-in-latex-display-mode)
+for explanations about the backslash before underscores and brackets
+
+---
+
+## Maths
+
+### Systems of equation array
+
 $$
 f(n) = \\left\\{
 \\begin{array}{ll}
@@ -191,8 +230,8 @@ f(n) = \\left\\{
 \\end{array} \\right.
 $$
 
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693) and
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the doubled slashes
+See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
+and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
 
 ---
 
