@@ -191,6 +191,15 @@ $$
 \\end{array}
 $$
 
+<div>
+$$
+\begin{array}{cc}
+  a & b \\\\
+  c & c
+\end{array}
+$$
+</div>
+
 See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
 and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
 
