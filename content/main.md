@@ -154,13 +154,13 @@ As Descartes said:
 
 ## Maths
 
-Inlin maths: $x \lt y$
+Inline maths with `$\LaTeX$` : `$x \lt y$` 
 
 `\(\int_a^b f(x)dx\)`
 
-$$\int_a^b f(x)dx$$
+`$$\int_a^b f(x)dx$$`
 
-$$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$ 
+`$$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$`
 
 ---
 
@@ -168,15 +168,14 @@ $$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$
 
 ### Equation array
 
-$$
-\\begin{eqnarray}
-    y & = & \cos(x) \\\\
-      & = & \sin \left\( x + \frac{\pi}{2} \right\) \\\\
-\\end{eqnarray}
-$$
-
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+`$$
+\begin{eqnarray*}
+    \mbox{Expectation of N} & = & \sum_{i=1}^{n} \mathbf{E}(Z_i) \\
+                            & = & \sum_{i=1}^{n} \frac{\gamma}{d^{\beta/2}} \frac{ c(d)^\beta }{i^{\alpha\beta}} \\
+                            & = & \frac{\gamma}{d^{\beta/2}} c(d)^\beta \sum_{i=1}^{n} \frac{1}{i^{\alpha\beta}} \\
+                            & = & z
+\end{eqnarray*}
+$$`
 
 ---
 
@@ -184,24 +183,12 @@ and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-doc
 
 ### Arrays
 
-$$
-\\begin{array}{cc}
-  a & b \\\\
-  c & c
-\\end{array}
-$$
-
-<div>
-$$
+`$$
 \begin{array}{cc}
-  a & b \\\\
+  a & b \\
   c & c
 \end{array}
-$$
-</div>
-
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+$$`
 
 ---
 
@@ -209,21 +196,46 @@ and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-doc
 
 ### Matrices
 
-$$
+`$$
 A=
-\\begin{pmatrix}
-a\_\{1,1\} & a\_\{1,2\} & \cdots & a\_\{1,n\} \\\\
-a\_\{2,1\} & a\_\{2,2\} & \cdots & a\_\{2,n\} \\\\
-\vdots     & \vdots     & \ddots & \vdots     \\\\
-a\_\{m,1\} & a\_\{m,2\} & \cdots & a\_\{m,n\}
-\\end{pmatrix}
-$$
+\begin{pmatrix}
+    a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+    a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+    \vdots  & \vdots  & \ddots & \vdots  \\
+    a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+\end{pmatrix}
+$$`
 
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+---
 
-See [this page](http://meta.cs.stackexchange.com/questions/74/curly-brackets-not-showing-in-latex-display-mode)
-for explanations about the backslash before underscores and brackets
+## Maths
+
+### Matrices
+
+`$$
+A=
+\begin{bmatrix}
+    a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+    a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+    \vdots  & \vdots  & \ddots & \vdots  \\
+    a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+\end{bmatrix}
+$$`
+
+---
+
+## Maths
+
+### Mathematical programming
+
+`$$
+\begin{align}
+    \max        & \quad z = 4 x_1 + 7 x_2    \notag \\
+    \text{s.t.} & \quad 3 x_1 + 5 x_2 \leq 6 \label{constraint1}\\
+                & \quad   x_1 + 2 x_2 \leq 8 \label{constraint2}\\
+                & \quad   x_1, x_2 \geq 0    \notag
+\end{align}
+$$`
 
 ---
 
@@ -231,16 +243,13 @@ for explanations about the backslash before underscores and brackets
 
 ### Systems of equation array
 
-$$
-f(n) = \\left\\{
-\\begin{array}{ll}
-    n/2      & \\text{if $n$ is even}\\\\
-    -(n+1)/2 & \\text{if $n$ is odd}
-\\end{array} \\right.
-$$
-
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693)
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the double backslashes
+`$$
+f(n) = \left\{
+\begin{array}{ll}
+    n/2      & \text{if $n$ is even} \\
+    -(n+1)/2 & \text{if $n$ is odd}
+\end{array} \right.
+$$`
 
 ---
 
@@ -263,6 +272,22 @@ printf("%s", "Hello world\n");
 ```
 
 Code syntax highlighting courtesy of [highlight.js](http://softwaremaniacs.org/soft/highlight/en/description/)
+
+---
+
+## Verbatim
+
+<pre>
+
+         .--.
+        |o_o |
+        |:_/ |
+       //   \ \
+      (|     | )
+      /'\_   _/`\
+      \___)=(___/
+
+</pre>
 
 ---
 
