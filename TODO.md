@@ -2,6 +2,8 @@
 
 ## Skeleton
 
+- [ ] Internal links (especially to make a table of content at the begining fo
+      long documents)
 - [x] Improve Mathjax support: fix the conflict between Markdown parser (the
       "Marked" plugin) and Mathjax by desabling Markdown parser between
       '$$...$$' like for code blocks '```...```' to avoid the use of
