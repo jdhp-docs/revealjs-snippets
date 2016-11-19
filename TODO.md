@@ -6,6 +6,7 @@
       ...)
 - [ ] Improve the init_skeleton.sh script (add safety checks: are the variable
       defined ? is the skeleton branch already exist ? ...)
+- [ ] Add some elements from http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 - [x] Put CSS in a dedicated file (in "style/html/" like the rst-skeleton)
 - [ ] Improve the default theme (i.e. CSS file)
 - [x] Split content/main.md
