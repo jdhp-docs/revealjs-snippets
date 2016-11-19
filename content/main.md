@@ -170,7 +170,7 @@ Inline maths with `$\LaTeX$` : `$x \lt y$`
 
 `$$
 \begin{eqnarray*}
-    \mbox{Expectation of N} & = & \sum_{i=1}^{n} \mathbf{E}(Z_i) \\
+    \mbox{Expectation of N} & = & \sum_{i=1}^{n} \mathbb{E}(Z_i) \\
                             & = & \sum_{i=1}^{n} \frac{\gamma}{d^{\beta/2}} \frac{ c(d)^\beta }{i^{\alpha\beta}} \\
                             & = & \frac{\gamma}{d^{\beta/2}} c(d)^\beta \sum_{i=1}^{n} \frac{1}{i^{\alpha\beta}} \\
                             & = & z
@@ -258,7 +258,7 @@ $$`
 ### mathbb
 
 `$$
-\mathbb{CHNQRZ}
+\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 $$`
 
 ### mathbf
