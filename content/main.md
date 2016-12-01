@@ -144,7 +144,7 @@ As Descartes said:
 
 ---
 
-## Images
+## SVG images
 
 ![Logo](figs/logos/python/python.svg)
 
@@ -152,51 +152,186 @@ As Descartes said:
 
 ---
 
+## PNG images
+
+![Logo](figs/plot2d.py.png)
+
+---
+
 ## Maths
 
-Inlin maths: $x \lt y$
+Inline maths with `$\LaTeX$` : `$x \lt y$` 
 
 `\(\int_a^b f(x)dx\)`
 
-$$\int_a^b f(x)dx$$
+`$$\int_a^b f(x)dx$$`
 
-$$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$ 
+`$$V(x) = \max_{a \in \Gamma (x) } \{ F(x,a) + \beta V(T(x,a)) \}$$`
 
 ---
 
 ## Maths
 
-Equation array:
-$$
-\\begin{eqnarray}
-    y & = & \cos(x) \\\\
-      & = & \sin \left\( x + \frac{\pi}{2} \right\) \\\\
-\\end{eqnarray}
-$$
+### Equation array
 
-Matrices:
-$$
-\\begin{array}{cc}
-  a & b \\\\
-  c & c
-\\end{array}
-$$
-
-Systems of equation array:
-$$
-f(n) = \\left\\{
-\\begin{array}{ll}
-    n/2      & \\text{if $n$ is even}\\\\
-    -(n+1)/2 & \\text{if $n$ is odd}
-\\end{array} \\right.
-$$
-
-See [there](http://stackoverflow.com/questions/18860693/mathjax-multi-line-equation-rendering-issue#comment27933447_18860693) and
-and [there](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-in-html-documents) for explanations about the doubled slashes
+`$$
+\begin{eqnarray*}
+    \mbox{Expectation of N} & = & \sum_{i=1}^{n} \mathbb{E}(Z_i) \\
+                            & = & \sum_{i=1}^{n} \frac{\gamma}{d^{\beta/2}} \frac{ c(d)^\beta }{i^{\alpha\beta}} \\
+                            & = & \frac{\gamma}{d^{\beta/2}} c(d)^\beta \sum_{i=1}^{n} \frac{1}{i^{\alpha\beta}} \\
+                            & = & z
+\end{eqnarray*}
+$$`
 
 ---
 
-## Code
+## Maths
+
+### Arrays
+
+`$$
+\begin{array}{cc}
+  a & b \\
+  c & c
+\end{array}
+$$`
+
+---
+
+## Maths
+
+### Matrices
+
+`$$
+A=
+\begin{pmatrix}
+    a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+    a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+    \vdots  & \vdots  & \ddots & \vdots  \\
+    a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+\end{pmatrix}
+$$`
+
+---
+
+## Maths
+
+### Matrices
+
+`$$
+A=
+\begin{bmatrix}
+    a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+    a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+    \vdots  & \vdots  & \ddots & \vdots  \\
+    a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+\end{bmatrix}
+$$`
+
+---
+
+## Maths
+
+### Mathematical programming
+
+`$$
+\begin{align}
+    \max        & \quad z = 4 x_1 + 7 x_2    \notag \\
+    \text{s.t.} & \quad 3 x_1 + 5 x_2 \leq 6 \label{constraint1}\\
+                & \quad   x_1 + 2 x_2 \leq 8 \label{constraint2}\\
+                & \quad   x_1, x_2 \geq 0    \notag
+\end{align}
+$$`
+
+---
+
+## Maths
+
+### Systems of equation array
+
+`$$
+f(n) = \left\{
+\begin{array}{ll}
+    n/2      & \text{if $n$ is even} \\
+    -(n+1)/2 & \text{if $n$ is odd}
+\end{array} \right.
+$$`
+
+---
+
+## `$\LaTeX$` fonts
+
+### mathbb
+
+`$$
+\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+
+### mathbf
+
+`$$
+\mathbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathbf{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathtt
+
+`$$
+\mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathtt{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## `$\LaTeX$` fonts
+
+### mathrm
+
+`$$
+\mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathrm{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathsf
+
+`$$
+\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathsf{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## `$\LaTeX$` fonts
+
+### mathcal
+
+`$$
+\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathcal{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+### mathfrak
+
+`$$
+\mathfrak{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+$$`
+`$$
+\mathfrak{abcdefghijklmnopqrstuvwxyz}
+$$`
+
+---
+
+## Source code
 
 Python:
 ```python
@@ -215,6 +350,22 @@ printf("%s", "Hello world\n");
 ```
 
 Code syntax highlighting courtesy of [highlight.js](http://softwaremaniacs.org/soft/highlight/en/description/)
+
+---
+
+## Verbatim
+
+<pre>
+
+         .--.
+        |o_o |
+        |:_/ |
+       //   \ \
+      (|     | )
+      /'\_   _/`\
+      \___)=(___/
+
+</pre>
 
 ---
 
