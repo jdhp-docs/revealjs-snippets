@@ -247,14 +247,6 @@ $$`
 
 ## Maths
 
-### Algorithms
-
-![Logo](figs/algo.tex.png)
-
----
-
-## Maths
-
 ### Systems of equation array
 
 `$$
@@ -336,6 +328,12 @@ $$`
 `$$
 \mathfrak{abcdefghijklmnopqrstuvwxyz}
 $$`
+
+---
+
+## Algorithms
+
+![Logo](figs/algo.tex.png)
 
 ---
 
