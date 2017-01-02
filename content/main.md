@@ -247,6 +247,14 @@ $$`
 
 ## Maths
 
+### Algorithms
+
+![Logo](figs/algo.tex.png)
+
+---
+
+## Maths
+
 ### Systems of equation array
 
 `$$
