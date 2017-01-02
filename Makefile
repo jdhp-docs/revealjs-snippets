@@ -4,18 +4,20 @@ include meta.make
 
 SUBDIRS = figs
 
-SRCSLIDES = main.html\
-            content/*.md\
-            figs/*
+SRCFILES = Makefile \
+           main.html \
+           content/*.md
 
 .PHONY : all clean init open pdf jdhp publish $(SUBDIRS)
 
 all: open
 
+
 # SUBDIRS #####################################################################
 
 $(SUBDIRS):
 	$(MAKE) --directory=$@
+
 
 # OPEN IN WEB BROWSER #########################################################
 
@@ -28,7 +30,7 @@ $(SUBDIRS):
 # If uname not available then UNAME_S is set to 'unknown' 
 UNAME_S := $(shell sh -c 'uname -s 2>/dev/null || echo unknown')
 
-open: $(SUBDIRS)
+open: html
 # Linux ###############################
 # See: http://askubuntu.com/questions/8252/
 ifeq ($(UNAME_S),Linux)
@@ -55,14 +57,21 @@ ifneq (,$(findstring MSYS,$(UNAME_S)))
 	@start firefox  main.html
 endif
 
-# MAKE PDF ####################################################################
 
-pdf: $(FILE_BASE_NAME).pdf $(SUBDIRS)
+## MAKE ARTICLE ###############################################################
+
+# HTML ############
+
+html: $(SRCFILES) $(SUBDIRS)
+
+# PDF #############
+
+pdf: $(FILE_BASE_NAME).pdf
 
 # TODO: follow the full setup procedure (with NodeJS) described there
 #       https://github.com/hakimel/reveal.js/#full-setup
 
-$(FILE_BASE_NAME).pdf: $(SRCSLIDES)
+$(FILE_BASE_NAME).pdf: $(SRCFILES) $(SUBDIRS)
 	@echo "Not fully available yet"           # TODO
 # Linux ###############################
 # See: http://askubuntu.com/questions/8252/
@@ -91,8 +100,8 @@ endif
 
 publish: jdhp
 
-#jdhp:$(FILE_BASE_NAME).pdf
-jdhp: $(SUBDIRS)
+#jdhp:$(FILE_BASE_NAME).pdf     # TODO
+jdhp: html
 	
 	########
 	# HTML #
@@ -114,7 +123,6 @@ jdhp: $(SUBDIRS)
 	# Upload the HTML files
 	rsync -r -v -e ssh $(HTML_TMP_DIR)/ ${JDHP_DOCS_URI}/$(FILE_BASE_NAME)/
 	
-	
 	#######
 	# PDF #
 	#######
@@ -126,11 +134,12 @@ jdhp: $(SUBDIRS)
 	## Upload the PDF file
 	#rsync -v -e ssh $(FILE_BASE_NAME).pdf ${JDHP_DL_URI}/pdf/
 
+
 ## CLEAN ######################################################################
 
 clean:
 	@echo "Remove generated files"
-	@rm -rf $(HTML_TMP_DIR)/
+	@rm -rvf $(HTML_TMP_DIR)/
 	$(MAKE) clean --directory=figs
 
 init: clean
