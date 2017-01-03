@@ -117,9 +117,13 @@ $$`
 
 ## Document
 
+- [x] MathJax/LaTeX: algorithmic and theorem environments
+- [ ] Chinese character + character size + character font
+- [ ] Javascript demo (e.g. clock demo)
+- [ ] HTML5 Canvas and animated canvas (e.g. clock demo)
+- [ ] D3.js
 - [ ] Images: a demo with the main 4 formats (PNG, JPEG, SVG, GIF)
 - [ ] "Fragments"
-- [ ] HTML Canvas
 - [ ] Audio embedded: Vorbis, MP3, Wave, Flac
 - [ ] Video embedded: VP9, VP8, H265, H264, MPEG4, Theora
 - [ ] Video/Gif background
@@ -128,9 +132,7 @@ $$`
 - [ ] Code source: a demo with code directly taken from a source file (from a given number to another one)
 - [ ] Code source: add more langage examples (xml, JS, html, C++, regex, CSS, JSON, Java, ASM, Perl, R, Julia, PHP, SQL, Markdown, RST, Make, ...)
 - [ ] Generate graphs/trees from Graphviz sources (directly in JS ? with D3js ?)
-- [ ] MathJax/LaTeX: algorithmic and theorem environments
 - [ ] Columns (like Remark.js)
-- [ ] D3.js
 - [ ] Processing.js / P5.js (www.p5js.org)
 - [ ] Get data from Node.js (or other client side frameworks)
 - [ ] Get data from JSON files
