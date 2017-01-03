@@ -365,9 +365,15 @@ $$`
 
 ---
 
-## Algorithms
+## Algorithms (PNG)
 
 <img src="figs/algo.tex.png" width="75%">
+
+---
+
+## Algorithms (SVG)
+
+<img src="figs/algo.tex.svg" width="75%">
 
 ---
 
