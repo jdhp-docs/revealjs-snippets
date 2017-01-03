@@ -144,17 +144,51 @@ As Descartes said:
 
 ---
 
-## SVG images
+## SVG images (1:1)
 
 ![Logo](figs/logos/python/python.svg)
+
+---
+
+## SVG images (width=300px)
 
 <img src="figs/logos/python/python.svg" width="300">
 
 ---
 
-## PNG images
+## SVG images (width=100%)
+
+<img src="figs/logos/python/python.svg" width="100%">
+
+---
+
+## SVG images (height=100%)
+
+<img src="figs/logos/python/python.svg" height="100%">
+
+---
+
+## PNG images (1:1)
 
 ![Logo](figs/plot2d.py.png)
+
+---
+
+## PNG images (width=300px)
+
+<img src="figs/plot2d.py.png" width="300">
+
+---
+
+## PNG images (width=50%)
+
+<img src="figs/plot2d.py.png" width="50%">
+
+---
+
+## PNG images (height=100%)
+
+<img src="figs/plot2d.py.png" height="100%">
 
 ---
 
@@ -333,7 +367,7 @@ $$`
 
 ## Algorithms
 
-![Logo](figs/algo.tex.png)
+<img src="figs/algo.tex.png" width="75%">
 
 ---
 
